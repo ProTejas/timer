@@ -1,8 +1,8 @@
 let timer = document.querySelector('p');
 
 function getMin(minToSec) {
+    minToSec -= 1;
     let sec = 60;
-    let seconds = sec * minToSec;
         setInterval(function () {
             sec -= 1;
             timer.innerText = minToSec * 1 + ":" + sec;
