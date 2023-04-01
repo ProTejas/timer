@@ -13,4 +13,4 @@ function getMin(minToSec) {
         }, 1000);
 
 }
-// getMin(1)
+getMin(prompt("Enter munites"))
